@@ -1,0 +1,203 @@
+@import "bootstrap/scss/bootstrap";
+
+$blue-dark: #00497c;
+$blue-light: #0074c7;
+$red: #cd2c2e;
+$green: #82b864;
+$bg-light: #f1f8fc;
+$text-dark: #384050;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: $bg-light;
+  color: $text-dark;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.site-logo {
+  max-width: 160px;
+  height: auto;
+}
+
+.nav-link {
+  color: $blue-dark;
+  font-weight: 600;
+
+  &:hover,
+  &:focus {
+    color: $red;
+  }
+}
+
+.btn-primary-custom {
+  background-color: $blue-dark;
+  color: white;
+  border: none;
+
+  &:hover,
+  &:focus {
+    background-color: $blue-light;
+    color: white;
+  }
+}
+
+.site-footer {
+  background-color: $blue-dark;
+  color: white;
+
+  a {
+    color: white;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer-title,
+.footer-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.page-section {
+  padding: 4rem 0;
+}
+
+.section-title {
+  color: $blue-dark;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.card-custom {
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(0, 73, 124, 0.12);
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #00497c, #0074c7);
+  color: white;
+
+  h1 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+  }
+}
+
+.step-card {
+  padding: 2rem;
+  text-align: center;
+
+  p {
+    margin: 1rem 0 0;
+    font-weight: 600;
+  }
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #cd2c2e;
+  color: white;
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+.artisan-card-link {
+  color: inherit;
+  display: block;
+  height: 100%;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-4px);
+  }
+}
+
+.artisan-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  h3 {
+    color: #00497c;
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+}
+
+.artisan-stars {
+  color: #cd2c2e;
+  font-weight: 700;
+
+  span {
+    color: #384050;
+    margin-left: 0.5rem;
+  }
+}
+
+.artisan-detail {
+  padding: 2rem;
+
+  h1 {
+    color: #00497c;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    color: #00497c;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.about-section {
+  margin-top: 2rem;
+}
+
+.contact-section {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #dfe7ec;
+}
+
+.form-control {
+  border-radius: 0.6rem;
+  border: 1px solid #c9d7e1;
+
+  &:focus {
+    border-color: #0074c7;
+    box-shadow: 0 0 0 0.2rem rgba(0, 116, 199, 0.2);
+  }
+}

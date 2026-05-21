@@ -93,3 +93,9 @@ npm run seed
 - Express Rate Limit
 - Variables d’environnement
 - Sequelize ORM
+
+## Liens
+
+- Github : https://github.com/Opokup/trouve-ton-artisan.git
+- Render : https://trouve-ton-artisan-zma6.onrender.com
+- Vercel : https://trouve-ton-artisan-omega.vercel.app/
